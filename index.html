@@ -7,29 +7,29 @@
     <link rel="stylesheet" type="text/css" href="./node_modules/devextreme/dist/css/dx.common.css" />
     <link rel="stylesheet" type="text/css" href="./node_modules/devextreme/dist/css/dx.light.css" />
     <link rel="stylesheet" type="text/css" href="./index.css" />
-
-    <script src="./node_modules/jquery/dist/jquery.js"></script>
-    <script src="./node_modules/knockout/build/output/knockout-latest.js"></script>
-    <script>
-        var dxapp = dxapp || {};
-    </script>
-    <script src="./node_modules/devextreme/dist/js/dx.all.js"></script>
-    <script src="./js/db.js"></script>
-    <script src="./index.js"></script>
-
+    
     <!-- Layouts (use this from local folder and not modules.) -->
     <link rel="stylesheet" type="text/css" href="./layouts/Desktop/DesktopLayout.css" />
     <link rel="dx-template" type="text/html" href="./layouts/Desktop/DesktopLayout.html" />
-    <script src="./layouts/Desktop/DesktopLayout.js"></script>
+    
     <!-- Views -->
     <link rel="dx-template" type="text/html" href="./views/home.html" />
-    <script type="text/javascript" src="./views/home.js"></script>
-
     <link rel="dx-template" type="text/html" href="./views/about.html" />
 </head>
 
 <body>
     <div class="dx-viewport"></div>
+
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
+    <script src="./node_modules/knockout/build/output/knockout-latest.js"></script>
+    <script src="./node_modules/devextreme/dist/js/dx.all.js"></script>
+    <script>
+        var dxapp = dxapp || {};
+    </script>    <script src="./js/db.js"></script>
+    <script src="./index.js"></script>
+    <script src="./layouts/Desktop/DesktopLayout.js"></script>
+    <!-- ViewModels -->
+    <script type="text/javascript" src="./views/home.js"></script>
 </body>
 
 </html>
